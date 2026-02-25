@@ -1,41 +1,47 @@
 # btc-ai-marketplace
-Это децентрализованная торговая площадка на Bitcoin OP_NET. Пользователи могут выставлять товары/услуги, использовать BTC для оплаты, и весь код генерируется AI-билдером Bob согласно спецификации, описанной ниже.
-# Project Name
 
-Short one-line description of your project.
+![status](https://img.shields.io/badge/status-MVP-blue)
+![bitcoin](https://img.shields.io/badge/Built%20on-Bitcoin-orange)
+
+AI-powered decentralized marketplace built on Bitcoin OP_NET.
 
 ## 🚀 Overview
 
-This project is a Bitcoin L1 (OP_NET) application built using VibeCode AI builder.
+btc-ai-marketplace is a decentralized marketplace built on Bitcoin L1 (OP_NET).
 
-It allows users to:
-- Feature 1
-- Feature 2
-- Feature 3
+Users can:
+
+- List products and services on-chain  
+- Pay with BTC  
+- Connect wallet via OP_NET  
+- Interact with smart contracts secured by Bitcoin  
+
+The project is generated using VibeCode AI Builder (Bob).
 
 ## 🧠 Built With
 
-- Bitcoin
-- OP_NET
-- VibeCode
-- AI (Bob Builder)
+- Bitcoin  
+- OP_NET  
+- VibeCode  
+- AI (Bob Builder)  
 
 ## ⚙️ How It Works
 
-Describe the logic in simple terms.
+1. User connects wallet  
+2. Smart contract deployed on OP_NET  
+3. Listings stored on-chain  
+4. Payments processed in BTC  
 
-Example:
-Users connect wallet → interact with smart contract → data stored on-chain.
+All logic is secured by Bitcoin Layer 1.
 
 ## 🏗 Architecture
 
-- Frontend: (if any)
-- Smart Contracts: OP_NET
-- Storage: On-chain
+- Smart Contracts: OP_NET  
+- Storage: On-chain  
+- Wallet Integration: OP_NET compatible  
 
-## 📦 Installation (if needed)
+## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/projectname
-cd projectname
-npm install
+git clone https://github.com/rudimentall1/btc-ai-marketplace.git
+cd btc-ai-marketplace
