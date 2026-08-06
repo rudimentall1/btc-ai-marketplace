@@ -1,47 +1,45 @@
-# btc-ai-marketplace
+# BTC AI Marketplace
 
-![status](https://img.shields.io/badge/status-MVP-blue)
-![bitcoin](https://img.shields.io/badge/Built%20on-Bitcoin-orange)
+AI-assisted decentralized marketplace concept built around Bitcoin L1 and OP_NET.
 
-AI-powered decentralized marketplace built on Bitcoin OP_NET.
+## Problem
 
-## 🚀 Overview
+Traditional marketplace flows depend on centralized listings, payment infrastructure, and platform-controlled settlement.
 
-btc-ai-marketplace is a decentralized marketplace built on Bitcoin L1 (OP_NET).
+## Solution
 
-Users can:
+This project explores an on-chain marketplace where users can:
 
-- List products and services on-chain  
-- Pay with BTC  
-- Connect wallet via OP_NET  
-- Interact with smart contracts secured by Bitcoin  
+- publish products or services;
+- connect an OP_NET-compatible wallet;
+- interact with smart-contract logic;
+- settle payments using BTC.
 
-The project is generated using VibeCode AI Builder (Bob).
+## Architecture
 
-## 🧠 Built With
+```text
+User
+  |
+  v
+Wallet / Web UI
+  |
+  v
+OP_NET Smart Contracts
+  |
+  v
+Bitcoin L1
+```
 
-- Bitcoin  
-- OP_NET  
-- VibeCode  
-- AI (Bob Builder)  
+## Stack
 
-## ⚙️ How It Works
+- Bitcoin
+- OP_NET
+- Smart contracts
+- Web application tooling
+- AI-assisted development workflow
 
-1. User connects wallet  
-2. Smart contract deployed on OP_NET  
-3. Listings stored on-chain  
-4. Payments processed in BTC  
+## Status
 
-All logic is secured by Bitcoin Layer 1.
+MVP / experimental Web3 project.
 
-## 🏗 Architecture
-
-- Smart Contracts: OP_NET  
-- Storage: On-chain  
-- Wallet Integration: OP_NET compatible  
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/rudimentall1/btc-ai-marketplace.git
-cd btc-ai-marketplace
+The repository should be treated as a prototype rather than a production marketplace.
